@@ -1,9 +1,5 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install git npm unzip curl screen -y
-killall screen
-rm /home/idena-*
-rm -r /home/datadir/idenachain.db
-rm -r /home/datadir/ipfs
 cd /home
 mkdir datadir && cd datadir
 mkdir idenachain.db && cd idenachain.db
