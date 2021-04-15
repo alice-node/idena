@@ -1,4 +1,4 @@
-sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt-get install git npm unzip curl screen -y
 killall screen
 rm /home/idena-*
