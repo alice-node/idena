@@ -1,4 +1,5 @@
-sudo apt-get install unzip -y
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install git npm unzip curl screen -y
 killall screen
 rm /home/idena-*
 rm -r /home/datadir/idenachain.db
